@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5f27716327f794436436833f"},"nombre":"Yonar","apellido":"Ramos","empresa":"Udemy","email":"yonar@gmail.com","telefono":"1138796141","__v":0}
+{"_id":{"$oid":"5f27758727f7944364368340"},"nombre":"Engy","apellido":"Pararie","empresa":"Google","email":"engie2@gmail.com","telefono":"1138496149","__v":0}
+{"_id":{"$oid":"5f3d6c5461f6d3161472b83d"},"nombre":"Yoel","apellido":"Smith","empresa":"Facebook","email":"yoel@gmail.com","telefono":"1138796141","__v":0}
+{"_id":{"$oid":"5f57a6824fc49d14ec4587ca"},"nombre":"Ana","apellido":"Ramos","empresa":"Tesla","email":"ana@gmail.com","telefono":"1135874585","__v":0}
