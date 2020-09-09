@@ -7,8 +7,6 @@ require('dotenv').config({path: 'variables.env'});
 // Cors permite que un cliente se conecta a otro servidor para el intercambio de recursos
 
 const cors = require('cors');
-// Definir un dominio para recibir las peticiones
-const whitelist = [process.env.FRONTEND_URL];
 
 // conectar mongo
 mongoose.Promise = global.Promise;
@@ -22,8 +20,8 @@ const app = express();
 // carpeta publica
 app.use(express.static('uploads'));
 
-// Definir dominio(s) para recibir las peticiones
-const whiteList = ['http://localhost:3000'];
+// Definir un dominio para recibir las peticiones
+const whiteList = [process.env.FRONTEND_URL];
 const corsOptions = {
     origin: (origin, callback) => {
         //console.log(origin);
